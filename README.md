@@ -1,7 +1,7 @@
 # Quicksort-with-POSIX-Thread
 
 ### Using the code
-```
+```c
 void *thread_quicksort(void *arg)
 {   qs_param *qp;
     qp = (qs_param *) arg;
